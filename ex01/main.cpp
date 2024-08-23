@@ -6,7 +6,7 @@
 /*   By: sprodatu <sprodatu@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/22 22:48:32 by sprodatu          #+#    #+#             */
-/*   Updated: 2024/08/23 11:45:01 by sprodatu         ###   ########.fr       */
+/*   Updated: 2024/08/23 11:50:37 by sprodatu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -56,3 +56,15 @@ int	main(int argc, char **argv)
 	}
 	return (0);
 }
+
+/**
+ * logic :
+ * 
+ * 1.	Check if the number of arguments is correct
+ * 2. 	Evaluate the expression
+ * 			a. Create an instance of the RPN class
+ * 			b. Call the evaluate method with the expression as argument
+ * 			c. Print the result
+ * 3. 	Catch any exception and print the error message
+ * 4. 	Return 0 if success, 1 if error
+ */
